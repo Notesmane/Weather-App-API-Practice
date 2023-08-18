@@ -1,0 +1,28 @@
+.App {
+    /* text-align: center; */
+  }
+  
+  .weatherContainer {
+    line-height: 50%;
+    width: 70%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+    border-radius: 15px;
+  }
+  
+  .weatherLeft {
+    margin-left: 2%;
+    width: 60%;
+    background-color: blue;
+  }
+  
+  .weatherRight {
+    margin-right: 2%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: red;
+  }
